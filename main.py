@@ -9,7 +9,7 @@ colors = ["red", "orange", "yellow", "green", "blue", "purple"]
 allTurtle = []
 y2 = -100
 
-for i in range(6):
+for i in range(len(colors)):
     newTurtle = turtle.Turtle(shape="turtle")
     newTurtle.color(colors[i])
     newTurtle.penup()
