@@ -19,7 +19,7 @@ for i in range(6):
 
 betCondition = True
 while betCondition:
-    bet = screen.textinput("Make your bet", "Which turtle will win the race? enter a color: ")
+    bet = screen.textinput("Make your bet", "Which turtle will win the race? enter a color: ").lower()
     if bet in colors:
         betCondition = False
 
